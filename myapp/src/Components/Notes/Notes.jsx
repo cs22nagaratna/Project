@@ -1,5 +1,7 @@
 import React from "react";
 import "./Notes.css"
+import { GoBell } from "react-icons/go";
+import { FaCalendarAlt } from "react-icons/fa";
 
 const Notes=()=>{
     return(
@@ -12,8 +14,19 @@ const Notes=()=>{
                     <div className="a2">
                         <a>Hello,<br/><a>Joko Husein</a></a>
                     </div>
-                    <div className="a3"></div>
-                    <div className="a4"></div>
+                    <div className="a3">
+                    <FaCalendarAlt />
+                    </div>
+                    <div className="a4">
+                    <GoBell />
+                    </div>
+                </div>
+                <div className="second">
+                    <h3>On Progress(12) <a>View More</a></h3>
+                </div>
+                <div className="design">
+                    <div className="b1"></div>
+                    <div className="b2"></div>
                 </div>
             </div>
             <div className="contant2"></div>
