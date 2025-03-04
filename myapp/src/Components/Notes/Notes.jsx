@@ -25,8 +25,26 @@ const Notes=()=>{
                     <h3>On Progress(12) <a>View More</a></h3>
                 </div>
                 <div className="design">
-                    <div className="b1"></div>
-                    <div className="b2"></div>
+                    <div className="b1">
+                        <div className="c1">
+                            <h3>Design UI ToDo APP<br/><a>Friday ,03 July 2022</a></h3>
+                            <div className="im"></div>
+                        </div>
+                        <p>Description</p>
+                        <a>Design a simple home pages with <br/><a></a>clean layout and color based on the <a>guidelines.</a></a>
+                        <div className="c3"></div>
+                    </div>
+                    <div className="b2">
+                    <div className="c2">
+                            <h3>Wee<br/><a>Friday</a></h3>
+                        </div>
+                        <p>Desc</p>
+                        <a>Meet<br/><a></a>pages</a>
+                        <div className="c4"></div>
+                    </div>
+                </div>
+                <div className="third">
+                    <h3>Completed</h3>
                 </div>
             </div>
             <div className="contant2"></div>
