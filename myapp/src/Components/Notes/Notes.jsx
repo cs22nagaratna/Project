@@ -2,6 +2,8 @@ import React from "react";
 import "./Notes.css"
 import { GoBell } from "react-icons/go";
 import { TbUsersGroup } from "react-icons/tb";
+import { FaUser } from "react-icons/fa6";
+import { FaRegClock } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
 
 const Notes=()=>{
@@ -163,7 +165,37 @@ const Notes=()=>{
                         </div>
                     </div>
                 </div>
-                <div className="contact"></div>
+                <div className="contact">
+                    <div className="m"></div>
+                    <h2>New Task ToDo</h2>
+                    <div className="cov">
+                        <h3>Title Task</h3>
+                        <input type="box" placeholder="Add Task Name.."/>
+                        <h3>Category</h3>
+                        <div className="input">
+                            <div className="i1"><FaUser /> Personal</div>
+                            <div className="i2"><TbUsersGroup /> Teams</div>
+                        </div>
+                        <h3>Descrption</h3>
+                        <div className="add">
+                            <p>Add  Descrption..</p>
+                        </div>
+                        <div className="date">
+                            <div className="date1">
+                                <h3>Date</h3>
+                                <div className="d1"><FaCalendarAlt />   dd/mm/yy</div>
+                                <div className="d2">Cancle</div>
+                            </div>
+                            <div className="time">
+                                <h3>Time</h3>
+                                <div className="t1">
+                                    <a><FaRegClock /> hh :mm</a>
+                                </div>
+                                <div className="t2">Create</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
