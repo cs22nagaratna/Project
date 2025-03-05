@@ -43,10 +43,18 @@ const Notes=()=>{
                                     <p>Terms:</p>
                                 </div>
                                 <div className="d1">
-                                    <div className="e1"></div>
-                                    <div className="e1"></div>
-                                    <div className="e1"></div>
-                                    <div className="e1"></div>
+                                    <div className="e1">
+                                        <img src="https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"/>
+                                    </div>
+                                    <div className="e1">
+                                        <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"/>
+                                    </div>
+                                    <div className="e1">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/4086/4086679.png"/>
+                                    </div>
+                                    <div className="e1">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/6185/6185659.png"/>
+                                    </div>
                                 </div>
                             </div>
                             <div className="cir2">
@@ -75,8 +83,12 @@ const Notes=()=>{
                                     <p>Terms:</p>
                                 </div>
                                 <div className="d1">
-                                    <div className="e1"></div>
-                                    <div className="e1"></div>
+                                    <div className="e1">
+                                        <img src="https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"/>
+                                    </div>
+                                    <div className="e1">
+                                    <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>    
@@ -93,7 +105,9 @@ const Notes=()=>{
                             <p>Meeting with Client</p>
                             <a>Redesign motion graphic</a>
                         </div>
-                        <div className="r3"></div>
+                        <div className="r3">
+                            <div className="checkmark"></div>
+                        </div>
                     </div>
                     <div className="row2">
                         <div className="q1"></div>
@@ -101,8 +115,12 @@ const Notes=()=>{
                             <a>Today 11:25 PM</a>
                         </div>
                         <div className="q3">
-                            <div className="w1"></div>
-                            <div className="w2"></div>
+                            <div className="w1">
+                                <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png"/>
+                            </div>
+                            <div className="w2">
+                                <img src="https://cdn-icons-png.flaticon.com/512/4086/4086679.png"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,7 +131,9 @@ const Notes=()=>{
                             <p>Task ExploreNFT</p>
                             <a>Explore design mobile UI.</a>
                         </div>
-                        <div className="r3"></div>
+                        <div className="r3">
+                            <div className="checkmark"></div>
+                        </div>
                     </div>
                     <div className="row2">
                         <div className="q1"></div>
@@ -121,8 +141,12 @@ const Notes=()=>{
                             <a>01 July 10:30 AM</a>
                         </div>
                         <div className="q3">
-                            <div className="w1"></div>
-                            <div className="w2"></div>
+                            <div className="w1">
+                            <img src="https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"/>
+                            </div>
+                            <div className="w2">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6185/6185659.png"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,8 +197,8 @@ const Notes=()=>{
                         <input type="box" placeholder="Add Task Name.."/>
                         <h3>Category</h3>
                         <div className="input">
-                            <div className="i1"><FaUser /> Personal</div>
-                            <div className="i2"><TbUsersGroup /> Teams</div>
+                            <div className="i1"><p><FaUser /> Personal</p></div>
+                            <div className="i2"><p><TbUsersGroup /> Teams</p></div>
                         </div>
                         <h3>Descrption</h3>
                         <div className="add">
@@ -183,13 +207,13 @@ const Notes=()=>{
                         <div className="date">
                             <div className="date1">
                                 <h3>Date</h3>
-                                <div className="d1"><FaCalendarAlt />   dd/mm/yy</div>
-                                <div className="d2">Cancle</div>
+                                <div className="p1"><FaCalendarAlt />   dd/mm/yy</div>
+                                <div className="p2">Cancle</div>
                             </div>
                             <div className="time">
                                 <h3>Time</h3>
-                                <div className="t1"><FaRegClock />   hh :mm</div>
-                                <div className="t2">Create</div>
+                                <div className="t1"><p><FaRegClock />   hh :mm</p></div>
+                                <div className="t2"><p>Create</p></div>
                             </div>
                         </div>
                     </div>

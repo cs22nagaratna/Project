@@ -134,8 +134,11 @@ a{
     width: 100%;
     max-width: 25px;
     height: 25px;
-    border: 1px solid black;
     border-radius: 20px;
+}
+.e1>img{
+    width: 100%;
+    max-width: 25px;
 }
 .cir2{
     width: 100%;
@@ -256,8 +259,26 @@ a{
 .r3{
     width: 100%;
     max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
-    border: 1px solid red;
+}
+.checkmark{
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+}
+.checkmark::after{
+    content: '✔';
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
 }
 .row2{
     width: 100%;
@@ -287,18 +308,22 @@ a{
 .w1{
     width: 100%;
     max-width: 40px;
-    border: 1px solid black;
     height: 40px;
     border-radius: 20px;
     margin-top: 15px;
 }
+.w1>img{
+    width: 100%;
+}
 .w2{
     width: 100%;
     max-width: 40px;
-    border: 1px solid black;
     height: 40px;
     border-radius: 20px;
     margin-top: 15px;
+}
+.w2>img{
+    width: 100%;
 }
 .five{
     width: 100%;
@@ -386,12 +411,12 @@ input{
     max-width: 180px;
     height: 58px;
     border-radius: 10px;
-    margin: 4px;
-    font-size: 20px;
-    margin-top: 2px;
     text-align: center;
     color: white;
     background-color: blue;
+}
+.i1>p{
+    font-size: 20px;
 }
 .i2{
     width: 100%;
@@ -399,8 +424,9 @@ input{
     max-width: 180px;
     height: 58px;
     font-size: 20px;
-    margin-top: 2px;
-    margin: 4px;
+}
+.i2>p{
+    font-size: 20px;
 }
 .add{
     width: 100%;
@@ -408,10 +434,10 @@ input{
     height: 120px;
     border-radius: 10px;
     background-color: whitesmoke;
-    font-size: 16px;
 }
 .add>p{
     padding-top: 15px;
+    font-size: 20px;
 }
 .date{
     display: flex;
@@ -422,18 +448,19 @@ input{
     height: 200px;
     margin-top: 20px;
 }
-.d1{
+.p1{
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    display: flex;
     max-width: 160px;
     font-size: 20px;
     border: 1px solid black;
-    height: 50px;
+    height: 60px;
 }
-.d2{
+.p2{
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
@@ -441,9 +468,10 @@ input{
     font-size: 20px;
     justify-content: center;
     color: blue;
+    display: flex;
     max-width: 160px;
     border: 2px solid blue;
-    height: 50px;
+    height: 60px;
 }
 .time{
     width: 100%;
@@ -456,21 +484,24 @@ input{
     margin-top: 20px;
     border-radius: 10px;
     align-items: center;
-    justify-content: center;
-    max-width: 160px;
     font-size: 20px;
-    border: 1px solid black;
-    height: 50px;
+    justify-content: center;
+    display: flex;
+    max-width: 160px;
+    border: 2px solid black;
+    height: 60px;
 }
 .t2{
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;
-    text-align: center;
-    background-color: blue;
+    align-items: center;
     font-size: 20px;
-    max-width: 160px;
+    display: flex;
+    justify-content: center;
     color: white;
-
-    height: 50px;
+    max-width: 160px;
+    background-color: blue;
+    border: 2px solid blue;
+    height: 60px;
 }
