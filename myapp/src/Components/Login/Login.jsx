@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css"
+import { FiSearch } from "react-icons/fi";
 
 const Login=()=>{
     return(
@@ -10,7 +11,14 @@ const Login=()=>{
                 <p>Jobs</p>
                 <p>Companies</p>
                 <p>Services</p>
-                <div className="search"></div>
+                <div className="search">
+                    <div className="se">
+                        Search jobs here
+                    </div>
+                    <div className="cir">
+                        <div className="c"><p><FiSearch /></p></div>
+                    </div>    
+                </div>
             </div>
         </div>
     );

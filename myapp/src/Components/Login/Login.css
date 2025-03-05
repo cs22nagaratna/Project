@@ -15,8 +15,8 @@
 }
 .boxes>img{
     width: 10%;
-    max-width: 50px;
-    height: 50px;
+    max-width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -32,4 +32,36 @@ h1{
 .boxes>p{
     padding-left: 40px;
     font-size: 20px;
+}
+.search{
+    width: 100%;
+    max-width: 350px;
+    height: 70px;
+    border-radius: 40px;
+    padding-left: 40px;
+    display: flex;
+    margin-left: 40px;
+    border: 1px solid gray;
+}
+.se{
+    width: 100%;
+    max-width: 600px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.cir{
+    width: 100%;
+    max-width: 50px;
+}
+.c{
+    width: 100%;
+    max-width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: rgb(55, 83, 243);
+}
+.c::after{
+    content:'\1F50D'
 }
