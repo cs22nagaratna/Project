@@ -188,9 +188,7 @@ const Notes=()=>{
                             </div>
                             <div className="time">
                                 <h3>Time</h3>
-                                <div className="t1">
-                                    <a><FaRegClock /> hh :mm</a>
-                                </div>
+                                <div className="t1"><FaRegClock />   hh :mm</div>
                                 <div className="t2">Create</div>
                             </div>
                         </div>
