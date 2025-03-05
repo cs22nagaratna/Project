@@ -40,7 +40,7 @@ const Notes=()=>{
                         <div className="cir">
                             <div className="cir1">
                                 <div className="te">
-                                    <p>Terms:</p>
+                                    <p>Teams:</p>
                                 </div>
                                 <div className="d1">
                                     <div className="e1">
@@ -80,7 +80,7 @@ const Notes=()=>{
                         <div className="ci">
                             <div className="cir1">
                                 <div className="te">
-                                    <p>Terms:</p>
+                                    <p>Teams:</p>
                                 </div>
                                 <div className="d1">
                                     <div className="e1">
