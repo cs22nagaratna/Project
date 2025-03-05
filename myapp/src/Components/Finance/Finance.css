@@ -67,7 +67,22 @@ h3{
 }
 .pos{
     width: 100%;
-    max-width:950px;
+    max-width:900px;
     height: 100px;
     border: 1px solid brown;
+    margin-left: 20px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.pos>h3{
+    color: black;
+}
+
+.job{
+    width: 100%;
+    max-width: 950px;
+    height: 700px;
+    margin-top: 20px;
+    border: 1px solid black;
 }

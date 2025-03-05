@@ -24,7 +24,12 @@ const Finance=()=>{
                         <h3>Send me jobs like this</h3>
                     </div>
                 </div>
-                <div className="pos"></div>
+                <div className="pos">
+                    <h3>Posted: 17 days ago  Openings: 2  Application:884</h3>
+                </div>
+            </div>
+            <div className="job">
+                
             </div>
         </div>
     )
