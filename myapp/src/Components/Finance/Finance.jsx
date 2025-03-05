@@ -1,5 +1,8 @@
 import React from "react";
 import "./Finance.css"
+import { FaStar } from "react-icons/fa6";
+import { IoCalendarClearOutline } from "react-icons/io5";
+import { SlLocationPin } from "react-icons/sl";
 
 const Finance=()=>{
     return(
@@ -8,7 +11,11 @@ const Finance=()=>{
                 <div className="senior">
                     <div className="senior1">
                         <h2>Senior  Finance  Executive  Revenue  To  Record  CA  Freshers</h2>
-                        <p>Unacademy</p>
+                        <div className="unacademy">
+                            <h3>Unacademy  <FaStar /> 3.0  1945 Reviews</h3>
+                            <a><IoCalendarClearOutline />0.2 years<a>₹ Not Disclosed</a></a><br/>
+                            <a><SlLocationPin />Bengaluru</a>
+                        </div>
                     </div>
                     <div className="icon">
                         <div className="icon1">
@@ -17,7 +24,7 @@ const Finance=()=>{
                         <h3>Send me jobs like this</h3>
                     </div>
                 </div>
-                
+                <div className="pos"></div>
             </div>
         </div>
     )
