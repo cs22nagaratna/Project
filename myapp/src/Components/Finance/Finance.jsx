@@ -25,7 +25,10 @@ const Finance=()=>{
                     </div>
                 </div>
                 <div className="pos">
-                    <h3>Posted: 17 days ago  Openings: 2  Application:884</h3>
+                    <h3>Posted: <a>17 days ago</a>  Openings: <a>2</a>   Application:<a>884</a></h3>
+                    <div className="register">
+                        
+                    </div>
                 </div>
             </div>
             <div className="job">
