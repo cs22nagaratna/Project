@@ -11,7 +11,7 @@ const Dashboard=()=>{
                     <div className="box1">
                         <div className="top">
                             <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/03/27180925/featured-compressed-36-686x400.jpg"></img>
-                            <div className="icon">
+                            <div className="icon21">
                                 <CiHeart />
                             </div>
                             <div className="but">
@@ -28,7 +28,7 @@ const Dashboard=()=>{
                     <div className="box2">
                         <div className="top">
                             <img src="https://digital.ihg.com/is/image/ihg/ihg-affinity-rates-lp-hero-senior-usen-lvp-1440x617"></img>
-                            <div className="icon1">
+                            <div className="icon11">
                                 <CiHeart />
                             </div>
                             <div className="but">
@@ -45,7 +45,7 @@ const Dashboard=()=>{
                     <div className="box3">
                         <div className="top">
                             <img src="https://arcticfox.com/cdn/shop/files/8_b5937b5b-8c26-4450-a248-3162a20e83a3.jpg?v=1706020146"></img>
-                            <div className="icon1">
+                            <div className="icon11">
                                 <CiHeart />
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const Dashboard=()=>{
                     <div className="box4">
                         <div className="top">
                             <img src="https://media.wired.com/photos/64d53749c859c4a1cdecc556/master/pass/Samsung-Galaxy-Tab-S9-Series-SOURCE-Samsung-Featured-Gear.jpg"></img>
-                            <div className="icon1">
+                            <div className="icon11">
                                 <CiHeart />
                             </div>
                         </div>

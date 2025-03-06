@@ -12,7 +12,7 @@ const Finance=()=>{
                     <div className="senior1">
                         <h2>Senior  Finance  Executive  Revenue  To  Record  CA  Freshers</h2>
                         <div className="unacademy">
-                            <h3>Unacademy  <FaStar /> 3.0  1945 Reviews</h3>
+                            <h3>Unacademy  <a><FaStar /></a> 3.0  1945 Reviews</h3>
                             <a><IoCalendarClearOutline />0.2 years<a>₹ Not Disclosed</a></a><br/>
                             <a><SlLocationPin />Bengaluru</a>
                         </div>
