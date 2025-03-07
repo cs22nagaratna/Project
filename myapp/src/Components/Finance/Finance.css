@@ -1,25 +1,31 @@
 .con{
     width: 100%;
     height: 100vh;
+    display: flex;
     border: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
 }
+.left{
+    width: 100%;
+    height: 900px;
+    max-width: 920px;
+}
 .finance{
     width: 100%;
-    max-width: 950px;
+    max-width: 910px;
     height: 280px;
     border: 1px solid black;
 }
 .senior{
     width: 100%;
-    max-width: 950px;
+    max-width: 930px;
     height: 180px;
     display: flex;
 }
 .senior1{
     width: 100%;
     margin-left: 20px;
-    max-width: 680px;
+    max-width: 930px;
     height: 180px;
     border-bottom: 1px solid black;
 }
@@ -106,7 +112,7 @@ h3{
 }
 .job{
     width: 100%;
-    max-width: 950px;
+    max-width: 890px;
     padding-left: 20px;
     height: 600px;
     border: 1px solid black;
@@ -191,7 +197,7 @@ h3{
 }
 .border{
     width: 100%;
-    max-width: 930px;
+    max-width: 880px;
     border: 1px solid black;
     margin-top: 40px;
     margin-right: 70px;
@@ -237,4 +243,31 @@ h3{
     max-width: 50px;
     height: 50px;
     border-radius: 10px;
+}
+.right{
+    width: 100%;
+    height: 900px;
+    max-width: 500px;
+    margin-left: 30px;
+}
+.roles{
+    width: 100%;
+    height: 550px;
+    max-width: 500px;
+    border: 1px solid black;
+}
+.reviews{
+    width: 100%;
+    height: 350px;
+    max-width: 500px;
+    border: 1px solid black;
+}
+.review>h3{
+    padding-left: 20px;
+    color: black;
+}
+.review>h3>a{
+    padding-left: 200px;
+    font-weight: normal;
+    color: blue;
 }
