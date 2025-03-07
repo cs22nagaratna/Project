@@ -31,7 +31,7 @@
 }
 
 .unacademy>h3{
-    color: black;
+    color: #abadb5;
     font-weight: normal;
 }
 .unacademy>h3>a{
@@ -67,7 +67,7 @@
     height: 100px;
     border-radius: 20px;
 }
-h3{
+.icon>h3{
     color: blue;
 }
 .pos{
@@ -247,19 +247,76 @@ h3{
 .right{
     width: 100%;
     height: 900px;
-    max-width: 500px;
+    max-width: 510px;
     margin-left: 30px;
 }
 .roles{
     width: 100%;
-    height: 550px;
-    max-width: 500px;
+    height: 560px;
+    max-width: 490px;
+    margin-bottom: 20px;
+    padding-left: 20px;
     border: 1px solid black;
 }
+.korean{
+    width: 100%;
+    max-width: 470px;
+    height: 153px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.contant3{
+    width: 100%;
+    max-width: 370px;
+    height: 153px;
+    padding-left: 10px;
+}
+.contant3>h3{
+    color: black;
+}
+.contant3>a{
+    font-size: 20px;
+}
+.contant3>a>a{
+    padding-top: 30px;
+}
+.contant3>a>a>a{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.img{
+    width: 100%;
+    max-width: 100px;
+    height: 153px;
+}
+.img>img{
+    width: 100%;
+    max-width: 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid gray;
+}
+.sales{
+    width: 100%;
+    max-width: 470px;
+    height: 153px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.business{
+    width: 100%;
+    max-width: 470px;
+    height: 153px;
+    display: flex;
+}
+
+
+
 .reviews{
     width: 100%;
-    height: 350px;
-    max-width: 500px;
+    height: 320px;
+    max-width: 510px;
     border: 1px solid black;
 }
 .review>h3{
@@ -270,4 +327,58 @@ h3{
     padding-left: 200px;
     font-weight: normal;
     color: blue;
+}
+.android{
+    padding-left: 20px;
+}
+.android>p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.android>a{
+    font-weight: bold;
+    font-size: 17px;
+}
+.android>a>a{
+    font-weight: normal;
+}
+.stars{
+    display: flex;
+    padding-top: 20px;
+}
+.star1{
+    color: gold;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.star2{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.likes{
+    padding-left: 20px;
+}
+.no>p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.power{
+    display: flex;
+}
+.power>p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.power>a{
+    padding-top: 25px;
+    font-size: bolder;
+    padding-left: 10px;
+}
+.power>img{
+    width: 100%;
+    padding-top: 17px;
+    max-width: 50px;
+    height: 30px;
 }

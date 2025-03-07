@@ -15,7 +15,7 @@ const Finance=()=>{
                         <div className="senior1">
                             <h2>Senior  Finance  Executive  Revenue  To  Record  CA  Freshers</h2>
                             <div className="unacademy">
-                                <h3>Unacademy  <a><FaStar /></a> 3.0  1945 Reviews</h3>
+                                <h3>Unacademy  <a><FaStar /></a> <p>3.0  1945 Reviews</p></h3>
                                 <a><IoCalendarClearOutline />0.2 years<a>₹ Not Disclosed</a></a><br/>
                                 <a><SlLocationPin />Bengaluru</a>
                             </div>
@@ -86,12 +86,68 @@ const Finance=()=>{
                 </div>
             </div>
             <div className="right">
-                <div className="roles"></div>
+                <div className="roles">
+                    <h2>Inacademy roles<br/>you might be interested in</h2>
+                    <div className="korean">
+                        <div className="contant3">
+                            <h3>Korean Educator</h3>
+                            <a><IoCalendarClearOutline />1-5 Yrs<br/>
+                            <a><SlLocationPin />Bengaluru(Domlur)<br/>
+                            <a>Posted 19 days ago</a></a></a>
+                        </div>
+                        <div className="img">
+                            <img src="https://play-lh.googleusercontent.com/DT0jm91vA_rOkxwatXhI4yVpjU4KI0augje6ZJGYxEyNjKvIhcQt8npiLHf5-ydclsqe"/>
+                        </div>
+                    </div>
+                    <div className="sales">
+                        <div className="contant3">
+                            <h3>Sales Manager/Senior Sales Manager</h3>
+                            <a><IoCalendarClearOutline />2-5 Yrs<br/>
+                            <a><SlLocationPin />Delhi/NCR(Noida-Greater Noida...<br/>
+                            <a>Posted 24 days ago</a></a></a>
+                        </div>
+                        <div className="img">
+                            <img src="https://play-lh.googleusercontent.com/DT0jm91vA_rOkxwatXhI4yVpjU4KI0augje6ZJGYxEyNjKvIhcQt8npiLHf5-ydclsqe"/>
+                        </div>
+                    </div>
+                    <div className="business">
+                        <div className="contant3">
+                            <h3>Business Development Manager</h3>
+                            <a><IoCalendarClearOutline />3-5 Yrs<br/>
+                            <a><SlLocationPin />Varanasi<br/>
+                            <a>Posted 30 days ago</a></a></a>
+                        </div>
+                        <div className="img">
+                            <img src="https://play-lh.googleusercontent.com/DT0jm91vA_rOkxwatXhI4yVpjU4KI0augje6ZJGYxEyNjKvIhcQt8npiLHf5-ydclsqe"/>
+                        </div>
+                    </div>
+                </div>
                 <div className="reviews">
                     <div className="review">
                         <h3>Reviews<a>Read all 1945 reviews</a></h3>
                     </div>
-                    
+                    <div className="android">
+                        <p>Android Developer for 3 months in Bengalore / Beng...</p>
+                        <a>Anonymous<a>19 Feb 2025</a></a>
+                    </div>
+                    <div className="stars">
+                        <div className="star1"><FaStar /></div>
+                        <div className="star2"><FaStar /></div>
+                        <div className="star2"><FaStar /></div>
+                        <div className="star2"><FaStar /></div>
+                        <div className="star2"><FaStar /></div>
+                    </div>
+                    <div className="likes">
+                        <h2>Likes</h2>
+                    </div>
+                    <div className="no">
+                        <p>No . work culture is extremely toxic</p>
+                    </div>
+                    <div className="power">
+                        <p>Powered by</p>
+                        <img src="https://static.ambitionbox.com/img/ab-brand.png"/>
+                        <a>AmbitionBox</a>
+                    </div>
                 </div>
             </div>
         </div>
